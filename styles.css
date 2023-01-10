@@ -1,0 +1,717 @@
+/* Global CSS */
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    /* background-color: #FFE8D6; */
+    background-image: url(assets/cafeblurry.jpg);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.linkHome {
+    position: absolute;
+    left: 92vw;
+    top: 3vh;
+    color: #57614F;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#homeImg {
+    width: 12vh;
+    cursor: url("assets/cursorhover.png"), pointer;
+}
+
+#player-container #play-pause {
+    color: transparent;
+    text-indent: -999999px;
+    height: 70px;
+    width: 70px;
+    padding: 12px 18px;
+    z-index: 2;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+    background-color: transparent;
+    cursor: url("assets/cursorhover.png"), pointer;
+}
+
+.play {
+    background-image: url(assets/play-music.png);
+}
+
+.pause {
+    background-image: url(assets/mute-music.png) !important;
+}
+
+.mainInstruction {
+    position: absolute;
+    color: #57614F;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 8vh;
+    z-index: 99;
+}
+
+
+/* Index page */
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 50%;
+    z-index: 10;
+}
+
+.homeContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: #DDBEA9;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    border-width: 10px;
+    border-color: #762B04;
+    width: 80vw;
+    height: 70vh;
+    border-radius: 25px;
+}
+
+.homeButtons {
+    position: absolute;
+    margin-top: 35vh;
+    display: flex;
+    justify-content: space-around;
+    z-index: 99;
+}
+
+.homeButton {
+    background-color: #A5A58D;
+    border: #6B705C;
+    border-style: dotted;
+    border-width: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin: 20px 20px;
+    z-index: 99;
+}
+
+.homeButton:hover {
+    background-color: #6B705C;
+    cursor: url("assets/cursorhover.png"), pointer;
+}
+
+.homeButton:active {
+    background: #495142;
+    cursor: pointer;
+}
+
+
+.instruction {
+    position: absolute;
+    color: #57614F;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 30vh;
+    z-index: 99;
+}
+
+.link {
+    position: absolute;
+    left: 90vw;
+    top: 5vh;
+    color: #57614F;
+    font-weight: 700;
+    font-size: 1.2em;
+    cursor: url("assets/cursorhover.png"), pointer;
+}
+
+
+/* Eat page */
+
+.mainContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #DDBEA9;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    border-width: 10px;
+    border-color: #762B04;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 25px;
+}
+
+#food {
+    position: absolute;
+    margin-top: 27vh;
+    width: 867px;
+    height: 353px;
+    left: 100px;
+    right: 100px;
+    background-color: transparent;
+}
+
+#plate {
+    position: absolute;
+    width: 867px;
+    height: 353px;
+    background-image: url("assets/plate.png");
+}
+
+.dessert1 {
+    position: absolute;
+    width: 867px;
+    height: 353px;
+    background-image: url("assets/Cookies.png");
+}
+
+.dessert2 {
+    position: absolute;
+    width: 867px;
+    height: 353px;
+    background-image: url("assets/breadrolls.png");
+}
+
+.dessert3 {
+    position: absolute;
+    width: 867px;
+    height: 353px;
+    background-image: url("assets/cupcakes.png");
+}
+
+.dessert4 {
+    position: absolute;
+    width: 867px;
+    height: 353px;
+    background-image: url("assets/pancakes.png");
+}
+
+#drink {
+    position: absolute;
+    margin-top: 8vh;
+    width: 309px;
+    height: 309px;
+    left: 50px;
+    right: 200px;
+    background-color: transparent;
+}
+
+#cup {
+    position: absolute;
+    width: 309px;
+    height: 309px;
+    background-image: url("assets/drink-empty.png");
+}
+
+.beverage1 {
+    position: absolute;
+    width: 309px;
+    height: 309px;
+    background-image: url("assets/drink-coffee.png");
+}
+
+.beverage2 {
+    position: absolute;
+    width: 309px;
+    height: 309px;
+    background-image: url("assets/drink-hotchocolate.png");
+}
+
+.beverage3 {
+    position: absolute;
+    width: 309px;
+    height: 309px;
+    background-image: url("assets/drink-greentea.png");
+}
+
+.beverage4 {
+    position: absolute;
+    width: 309px;
+    height: 309px;
+    background-image: url("assets/drink-latte.png");
+}
+
+
+#nextsnack {
+    position: absolute;
+    height: 50px;
+    top: 40vh;
+    left: 65vw;
+    background-color: #A5A58D;
+    border-style: dotted;
+    border-color: #6B705C;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    border-radius: 10%;
+    font-weight: 500;
+    cursor: url("assets/cursorhover.png"), pointer;
+}
+
+#nextsnack:hover {
+    background-color: #6B705C;
+}
+
+#nextdrink {
+    position: absolute;
+    height: 50px;
+    top: 50vh;
+    left: 65vw;
+    background-color: #fa9e9c;
+    border-style: dotted;
+    border-color: #ce7f7e;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    border-radius: 10%;
+    font-weight: 500;
+    cursor: url("assets/cursorhover.png"), pointer;
+}
+
+#nextdrink:hover {
+    background-color: #ce7f7e;
+}
+
+/* Bio page */
+
+.cards {
+    margin-top: 23vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 45vh;
+    border-radius: 5px;
+    background-color: white;
+    animation-duration: 1s;
+    transform-origin: bottom;
+}
+
+h2 {
+    text-align: center;
+    color: #57614F;
+    font-weight: 500;
+    cursor: url("assets/cursorhover.png"), pointer;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    animation-name: bounce;
+    animation-timing-function: ease-out;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bioimage {
+    border-radius: 5px 5px 0 0;
+}
+
+.bioclick {
+    text-decoration: none;
+}
+
+/* Detail bio page */
+
+.detailbio {
+    position: absolute;
+    top: 10vh;
+    left: 15vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.detailbioimage {
+    border-radius: 10px;
+}
+
+.textbio {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+h1 {
+    color: #495142;
+    font-weight: 800;
+    font-size: 2.2em;
+}
+
+.basicinfo {
+    font-size: 1.2em;
+    color: #72403f;
+    display: inline-block;
+}
+
+.description {
+    font-size: 1.3em;
+    text-align: default;
+    font-weight: 300;
+}
+
+.b {
+    font-weight: 700;
+}
+
+.detailbioButton {
+    position: absolute;
+    height: 50px;
+    background-color: #fa9e9c;
+    border-style: dotted;
+    border-color: #ce7f7e;
+    color: white;
+    font-size: 1em;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 20vw;
+    border-radius: 10%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.detailbioButton:hover {
+    background-color: #ce7f7e;
+}
+
+/* Pet page */
+
+.mainContainerPet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(assets/roombunniesbigger.jpg);
+    background-color: #762B04;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    border-width: 10px;
+    border-color: #762B04;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 25px;
+}
+
+.bunny1 {
+    height: 26%;
+    position: absolute;
+    top: 52vh;
+    left: 43vw;
+}
+
+.bunny2 {
+    height: 26%;
+    position: absolute;
+    left: 8vw;
+    top: 55vh;
+}
+
+.bunny3 {
+    height: 23.5%;
+    position: absolute;
+    left: 62vw;
+    top: 44vh;
+}
+
+.bunny4 {
+    height: 23.5%;
+    position: absolute;
+    left: 35vw;
+    top: 31vh;
+}
+
+
+
+#bunny:hover {
+    -webkit-filter: drop-shadow(4px 4px 4px white) drop-shadow(-4px -4px -4px white);
+    filter: drop-shadow(4px 4px 4px white) drop-shadow(-2px -2px 4px white);
+}
+
+
+.backButton {
+    background-color: #A5A58D;
+    border: #6B705C;
+    border-style: dotted;
+    border-width: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 1.2em;
+    z-index: 99;
+    margin-left: -20vw;
+    margin-top: 5vh;
+}
+
+.backButton:hover {
+    background-color: #6B705C;
+    cursor: url("assets/cursorhover.png"), pointer;
+}
+
+.backButton:active {
+    background: #495142;
+    cursor: pointer;
+}
+
+
+
+/* Pet Latte page */
+
+.mainContainerPetLatte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(assets/roombunnieslatte.jpg);
+    background-color: #762B04;
+    background-position: 0 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    border-width: 10px;
+    border-color: #762B04;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 25px;
+}
+
+#bunnypetlatte {
+    height: 100%;
+    position: relative;
+    top: 2vh;
+    cursor: pointer;
+}
+
+/* Pet Bean page */
+
+.mainContainerPetBean {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(assets/roombunniesbean.jpg);
+    background-color: #762B04;
+    background-position: 0 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    border-width: 10px;
+    border-color: #762B04;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 25px;
+}
+
+#bunnypetbean {
+    height: 100%;
+    position: relative;
+    top: 8vh;
+    cursor: pointer;
+}
+
+/* Pet Cocoa page */
+
+.mainContainerPetCocoa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(assets/roombunniescocoa.jpg);
+    background-color: #762B04;
+    background-position: 20% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    border-width: 10px;
+    border-color: #762B04;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 25px;
+}
+
+#bunnypetcocoa {
+    height: 95%;
+    position: relative;
+    top: 2vh;
+    right: 2vw;
+    cursor: pointer;
+}
+
+/* Pet Mocha page */
+
+.mainContainerPetMocha {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(assets/roombunniesmocha.jpg);
+    background-color: #762B04;
+    background-position: 0 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    border-width: 10px;
+    border-color: #762B04;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 25px;
+}
+
+#bunnypetmocha {
+    height: 100%;
+    position: relative;
+    top: 2vh;
+    cursor: pointer;
+}
+
+
+/* Credits page */
+
+.mainContainer2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #DDBEA9;
+    border: solid;
+    border-width: 10px;
+    border-color: #762B04;
+    width: 80vw;
+    height: 65vh;
+    border-radius: 25px;
+    padding: 5vh;
+}
+
+.creditInstruction {
+    color: #57614F;
+    font-weight: 700;
+    font-size: 1.5em;
+    z-index: 99;
+    text-align: center;
+}
+
+
+ul {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.creditsLink {
+    text-decoration: none;
+    cursor: url("assets/cursorhover.png"), pointer;
+    font-size: 1em;
+    font-weight: 700;
+    color: #b16e6d;
+    bottom: 20px;
+}
+
+.creditsLink:hover {
+    color: #762B04;
+    font-weight: bolder;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-right: 60px;
+    list-style-type: '☕︎';
+    padding-inline-start: 1ch;
+    color: #b16e6d;
+}
+
+li:hover {
+    color: #762B04;
+    font-weight: bolder;
+}
+
+.aboutText {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1em;
+    font-weight: 700;
+    color: #b16e6d;
+}
+
+#gifMaloney {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolioLink {
+    font-weight: 700;
+    color: #6B705C;
+}
+
+#portfolioLink:hover {
+    cursor: url("assets/cursorhover.png"), pointer;
+}

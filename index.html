@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeBun Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{cursor: url("assets/cursornormal.png"), auto;}
+        /* a{cursor: url("assets/cursorhover.png"), pointer} */
+    </style>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+</head>
+
+<body>
+    <img src="assets/coffeebun-logo.png" class="logo" alt="coffeebun-logo">
+    <div class="homeContainer">
+        <p class="instruction"> ❀ Welcome to CoffeeBun, your new favorite bunny cafe! Choose an activity to do! ❀</p>
+        <div class="homeButtons">
+            <a href="eat.html"><button class="homeButton">Sit down and eat</button></a>
+            <a href="bio.html"><button class="homeButton">Read the bios</button></a>
+            <a href="pet.html"><button class="homeButton">Pet the bunnies</button></a>
+        </div>
+    </div>
+
+    <a href="credits.html" class="link">Credits</a>
+    
+    <!-- Play-Pause music code from https://codepen.io/abikuk/pen/pGzJGy -->
+
+    <audio id="track">
+        <source src="assets/soundtrack.mp3" loop type="audio/mpeg" />
+      </audio>
+      
+      <div id="player-container">
+        <div id="play-pause" class="play">Play</div>
+      </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

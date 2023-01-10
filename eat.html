@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeBun Website - Eat page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{cursor: url("assets/cursornormal.png"), auto;}
+    </style>
+      <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="mainInstruction">❀ Try one of our delicious snacks and drinks! ❀</div>
+        <div id="drink">
+            <div id="cup"></div>
+            <div id="beverage"></div>
+        </div>
+        <div id="food">
+            <div id="plate"></div>
+            <div id="snack"></div>
+        </div>
+
+        <input type ="button" value="Choose a snack" id="nextsnack" onclick="nextsnack()">
+        <input type ="button" value="Choose a drink" id="nextdrink" onclick="nextdrink()">
+
+    </div>
+
+    <a href="index.html" class="linkHome"><img src="assets/homepage.png" id="homeImg" alt="homepageicon"></a>
+
+
+    <!-- Play-Pause music code from https://codepen.io/abikuk/pen/pGzJGy -->
+
+    <audio id="track">
+        <source src="assets/soundtrack.mp3" loop type="audio/mpeg" />
+      </audio>
+      
+      <div id="player-container">
+        <div id="play-pause" class="play">Play</div>
+      </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #181a19;
+}
+
+#hero {
+    position: relative;
+    padding-top: 10vh;
+    height: 100vh;
+    background: #FAF5F8;
+    background: linear-gradient(to right, #FAF5F8 24%, #ADFA55 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#weekly-reading {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+
+h1,
+h2 {
+    text-align: center;
+}
+
+
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    background: linear-gradient(to right, #FAF5F8 24%, #ADFA55 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5vh;
+    font-weight: 600;
+}
+
+
+
+
+.question {
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(107, 228, 94);
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#mainpicture {
+    width: 40%
+}
+
+.specialparagraph {
+    position: absolute;
+    background-color: aquamarine;
+    color: black;
+    width: 5vw;
+    height: 8vh;
+}
